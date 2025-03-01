@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CardMagic - Create Your Greeting Card</title>
+    <link rel="stylesheet" href="contactUs.css">
+</head>
+<body>
+
+    <header class="header">
+      <a href="index.html">Card Magic</a>
+    </header>
+
+    <nav class="navBar">
+      <a href="index.html">Home</a>
+      <a href="createCard.html">Create Card</a>
+      <a href="reviewCard.html">Review Card</a>
+      <a href="aboutUs.html">About Us</a>
+      <a href="contactUs.html">Contact Us</a>
+    </nav>
+
+    <div>
+      <h1>Contact Us </h1>
+      </div>
+      <div>
+      <h2>
+      User information</h2>
+      </div>
+      <form method="POST" action="mailto:your-email@example.com">
+
+  <div>
+    <label for="fname">
+    First Name :
+    </label>
+    <input id="fname" 
+    type="text" 
+    name="fname" 
+    autofocus required>
+  </div>
+      
+    <div>
+      <label for="lname">
+      Last Name :
+      </label>
+      <input id="lname"
+       type="text"
+        name="lname" 
+        required>
+    </div>
+      
+      <div>
+      <p> Gender: </p>
+      <input
+      type="radio"
+      name="gender"
+      id="female"
+      value="Female">
+      <label for="female"> Female</label>
+      
+      <input 
+      type="radio"
+      name="gender"
+      id="male"
+      value="Male">
+      <label for="male"> Male</label>
+      </div>
+      
+      
+      <div>
+        <select name="no">
+          <option value="+966" selected>+966</option>
+          <option value="+974">+974</option>
+          <option value="+971">+971</option>
+          <option value="+973">+973</option>
+          <option value="+965">+965</option>
+          <option value="+968">+968</option>
+        </select>
+        
+        <input id="no"
+         type="tel" 
+         name="no" 
+         minlength="9" 
+         maxlength="9" 
+         required pattern="[0-9]{9}">       
+      </div>
+      
+      <div>
+      <label for="email">
+      Email :
+      </label>
+      <input 
+      id="email"
+       type="email"
+       name="email" 
+      required>
+      </div>
+      
+      <div>
+      <label for="bdate"> Birth Date </label>
+      <input 
+      type="date"
+      id="bdate"
+      name="bdate">
+      </div>
+      
+      <h2> Service Requested </h2>
+      <section id="p">
+        <h2>How We Can Help You?</h2>
+        <p>Please describe your issue below.</p>
+      </section>
+      
+      <div>
+        <label for="details"> </label>
+        <div>
+          <textarea
+           name="details" id="details" cols="40" rows="5">
+          </textarea>
+
+      </div>
+      </div>
+      
+      
+      <div>
+        <input type="submit">
+      </div>
+      </form>
+      
+      <section id="contact">
+      <h2> Contact Us </h2>
+              Email: <a href="WHARTHY0001.stu@uj.edu.sa">WHARTHY0001.stu@uj.edu.sa</a>
+              Phone: <a href="tel:+966560662819">+966560662819</a>
+              <br>Email: <a href="LKHARRAZ.stu@uj.edu.sa ">LKHARRAZ.stu@uj.edu.sa</a>
+                Phone: <a href="tel:+966502605608">+966502605608</a>
+              <br> Email: <a href="SALFOWZAN.stu@uj.edu.sa ">WSALFOWZAN.stu@uj.edu.sa </a>
+              Phone: <a href="tel:+966560688955">+966560688955</a>
+      </section>
+
+      <footer class="footer">
+        <p><strong>&copy; 2025 CardMagic . All Rights Reserved</strong>.</p>
+      </footer>
+
+</body>
+</html>
