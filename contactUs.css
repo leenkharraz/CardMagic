@@ -120,6 +120,7 @@ input:focus, textarea:focus {
   text-align: center;
   background-color: #7851a9; 
   border-radius: 10px; 
+  margin: auto; 
 }
 
 
