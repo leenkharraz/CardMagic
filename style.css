@@ -59,11 +59,6 @@ body {
     text-align: center;
 }
 
-.aside {
-    grid-column: 2;
-    grid-row: 1 / span 2; 
-}
-
 .article {
     background: #7851a9;
     padding: 15px;
@@ -87,11 +82,51 @@ p {
 }
 
 .aside {
+    grid-column: 2;
+    grid-row: 1 / span 2; 
     background: white;
     padding: 15px;
+    margin-right: 10px;
     border-radius: 5px;
     text-align: center;
 }
+
+.aside h3{
+    padding: 30px;
+    margin: auto;
+    color: #7851a9;
+    font-size: 30px;
+}
+
+.aside p{
+    color: #7851a9;
+
+}
+
+
+aside input[type="email"] {
+    width: 80%;
+    padding: 10px;
+    border: 2px solid #7851a9;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    margin-top: 15px;
+}
+button {
+    background: #7851a9;
+    color: whitesmoke;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+  }
+  
+  button:hover {
+    background: #7851a9
+  }
 
 .footer {
     background-color: #7851a9;
