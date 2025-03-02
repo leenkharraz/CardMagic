@@ -120,9 +120,6 @@ input:focus, textarea:focus {
   text-align: center;
   background-color: #7851a9; 
   border-radius: 10px; 
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 
@@ -154,6 +151,7 @@ input:focus, textarea:focus {
 
   #contact {
     padding: 15px;
+    text-align: center;
   }
 }
 
