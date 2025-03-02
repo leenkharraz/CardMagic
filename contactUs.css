@@ -133,6 +133,7 @@ input:focus, textarea:focus {
   form {
     max-width: 95%;
     padding: 15px;
+    align-items: center;
   }
 
   input, select, textarea {
