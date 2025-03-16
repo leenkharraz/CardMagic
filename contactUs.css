@@ -75,6 +75,27 @@ input[type="radio"] {
   margin-right: 5px;
 }
 
+#language {
+  width: 100%;
+  padding: 8px;
+  margin: 10px 0;
+  border: 1px solid #7851a9;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 1em;
+}
+
+#language:focus {
+  outline-color: #8d6bc1;
+}
+
+label[for="language"] {
+  font-size: 1.1em;
+  color: #7851a9;
+  display: block;
+  margin-bottom: 5px;
+}
+
 textarea {
   resize: vertical;
 }
@@ -124,6 +145,7 @@ input:focus, textarea:focus {
 }
 
 
+
 .footer {
   background-color: #7851a9;
   color: whitesmoke;
@@ -139,6 +161,7 @@ input:focus, textarea:focus {
   form {
     max-width: 95%;
     padding: 15px;
+    align-items: center;
   }
 
   input, select, textarea {
@@ -152,7 +175,7 @@ input:focus, textarea:focus {
 
   #contact {
     padding: 15px;
-    text-align: center;
+    margin: 20px;
   }
 }
 
