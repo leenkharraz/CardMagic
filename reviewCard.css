@@ -1,3 +1,9 @@
+/*
+This page was Coded and created by:  
+Wateen Alharthy  
+ID: 2413523 
+*/
+
 * {
   margin: 0;
   padding: 0;
@@ -9,8 +15,6 @@ body {
   background: linear-gradient(to bottom, #e9ddfa, #431e71);
   color: whitesmoke;
   text-align: center;
-  margin: 0;
-  padding: 0;
 }
 .header {
   width: 100%;
