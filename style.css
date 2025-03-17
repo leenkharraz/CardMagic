@@ -1,3 +1,9 @@
+/*
+This page was Coded and created by:  
+Leen Kharraz  
+ID: 2412099 
+*/
+
 * {
     margin: 0;
     padding: 0;
@@ -5,6 +11,13 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
+/*
+Grid References:  
+1. https://youtu.be/uuOXPWCh-6o?si=fJlb-cExFHWD8MnN  
+2. https://youtu.be/oeOQQT7Xn7w?si=flOrq3WcsiRD2_C6  
+3. https://youtu.be/S9OiWe5iBYo?si=mLIVQuvVexCd6Oi2  
+4. https://youtu.be/EiNiSFIPIQE?si=1nJ2jHai4OquTYOX  
+*/
 
 body {
     display: grid;
@@ -127,6 +140,11 @@ button {
   button:hover {
     background: #7851a9
   }
+
+  /*
+Made several changes to the footer since Grid caused layout issues. 
+Fixed alignment, responsiveness, and ensured it stays properly positioned. 
+*/
 
 .footer {
     background-color: #7851a9;
