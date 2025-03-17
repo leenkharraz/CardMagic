@@ -1,29 +1,93 @@
+<!-- 
+This page was Coded and created by:  
+Sarah Alfowzan  
+ID: 2410916 
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CardMagic - Create Your Greeting Card</title>
-    <link rel="stylesheet" href="createCard.css">
+    <link rel="stylesheet" href="CreateCard.css">
+    <title>Cared magic</title>
 </head>
 <body>
+    <!--contenar start-->
+   <div class="container">
+    
+    <!--header-->
+    <div class="header">
+        <a href="index.html">Card Magic</a>
+    </div>
 
-    <header class="header">
-      <a href="index.html">Card Magic</a>
-    </header>
-
-    <nav class="navBar">
+    <!--header links-->
+    <div class="headLinks">
       <a href="index.html">Home</a>
       <a href="createCard.html">Create Card</a>
       <a href="reviewCard.html">Review Card</a>
       <a href="aboutUs.html">About Us</a>
       <a href="contactUs.html">Contact Us</a>
-    </nav>
+    </div>
 
+    <!--sidbar-->
+    <div class="sidebar">
+        <!--Add a text-->
+        <div>
+            <form>
+                <label for="text">Add a Text</label>
+                <input type="text" name="text" id="text" placeholder="enter your text here"><br>
+                <button class="buttons">Enter</button>
+                <button class="buttons" type="reset">Reset</button>
+            </form>
+        </div>
+          <!--text size-->
+        <div>
+            <label>Text Size</label><br>
+            <button class="buttons">Heading</button>
+            <button class="buttons">Subheading</button>
+            <button class="buttons">body Text</button>
+        </div><br>
+        <!--text color-->
+        <div>
+            <label>Chose a Color</label><br>
+            <button class="buttons">Text color</button>
+            <input type="color" id="textColor">
+        </div>
+        <!--text font-->
+        <div>
+          <label>Choose Text Font</label><br>
+          <select class="Selectors">
+               <option value="Arial">Arial</option>
+               <option value="Verdana">Verdana</option>
+               <option value="Georgia">Georgia</option>
+               <option value="Courier New">Courier New</option>
+               <option value="Time New Roman">Time New Roman</option>
+          </select>
+        </div>
+        <!--add a img and a frame-->
+        <div>
+            <label for="addImg">Add a Image</label>
+            <input type="file" id="addImg" accept="img/*">
+            <label>Add a Frame</label>
+            <select class="Selectors">
+                <option value="non">no frame</option>
+                <option value="solid">solid frame</option>
+                <option value="Dotted">Dotted frame</option>
+                <option value="Dashed">Dashed frame</option>
+            </select>
+        </div>
+    </div>
 
-    <footer class="footer">
-      <p><strong>&copy; 2025 CardMagic . All Rights Reserved</strong>.</p>
-    </footer>
+    <!--live scren-->
+    <div class="liveCaredCreation" id="previewArea">   
+    </div>
 
+    <!--foteer-->
+    <div class="foteer">
+        <p>&COPY;2025 CardMagic . All Rights Reserved.</p>
+    </div>
+    <!--contenar ends-->
+  </div>
 </body>
 </html>
