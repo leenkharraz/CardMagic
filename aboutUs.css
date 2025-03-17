@@ -1,3 +1,9 @@
+/*
+This page was Coded and created by:  
+Leen Kharraz  
+ID: 2412099 
+*/
+
 * {
   margin: 0;
   padding: 0;
@@ -34,11 +40,14 @@
   color: black;
 }
 
+
 .section {
   background: whitesmoke;
   padding: 15px;
   border-radius: 5px;
   text-align: center;
+  width: 80%;
+  margin: auto; 
 }
 
 section h2 {
@@ -83,19 +92,18 @@ td a:hover {
   color: whitesmoke;
   text-align: center;
   padding: 15px;
-  margin-top: auto;
   position: relative;
+  margin-top: auto;
   bottom: 0;
   width: 100%;
 }
-
-/*Small Screens (576px) */
+/* Small Screens (576px) */
 @media (max-width: 576px) {
   .navBar {
     font-size: 18px;
   }
 
-  section {
+  .section {
     width: 90%;
     margin: auto;
   }
@@ -103,27 +111,32 @@ td a:hover {
   table {
     font-size: 14px;
     width: 100%;
+    text-align: center;
   }
 }
 
 /* Medium Screens (768px) */
 @media (max-width: 768px) {
-  section {
+  .section {
     width: 80%;
+    margin: auto; 
   }
 
   table {
     width: 90%;
+    margin: auto; 
   }
 }
 
 /* Large Screens (992px) */
 @media (max-width: 992px) {
-  section {
+  .section {
     width: 70%;
+    margin: auto;
   }
 
   table {
     width: 80%;
+    margin: auto; 
   }
 }
