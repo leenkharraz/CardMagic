@@ -12,6 +12,7 @@ Includes Navbar, Header, and Footer for all pages
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CardMagic - Create Your Greeting Card</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
 
@@ -27,13 +28,6 @@ Includes Navbar, Header, and Footer for all pages
       <a href="contactUs.html">Contact Us</a>
     </nav>
 
-<!-- 
-Grid References:  
-1. https://youtu.be/uuOXPWCh-6o?si=fJlb-cExFHWD8MnN  
-2. https://youtu.be/oeOQQT7Xn7w?si=flOrq3WcsiRD2_C6  
-3. https://youtu.be/S9OiWe5iBYo?si=mLIVQuvVexCd6Oi2  
-4. https://youtu.be/EiNiSFIPIQE?si=1nJ2jHai4OquTYOX  
--->
     <main class="grid-container">
         <div class="section">
             <article class="article">
@@ -47,33 +41,38 @@ Grid References:
             <article class="article">
                 <h3>With CardMagic, you can</h3>
                 <div class="title">Create and Customize Your Greeting Cards</div>
-                <p><br>Add Your Unique Touch-Personalize cards with custom messages, images, and stylish fonts to make them special.</p>
-                <p><br>Download & Share Instantly - Save your creations as high-quality images or share them directly with friends and family.</p>
-                <p><br>Enjoy a Simple & User-Friendly Experience - Our intuitive design makes it easy for anyone to craft stunning greeting cards in minutes.</p>
-                <p><br><strong>your creativity and spread joy with CardMagic!</strong></p>
+                <p><br>Add Your Unique Touch – Personalize cards with custom messages, images, and stylish fonts to make them special.</p>
+                <p><br>Download & Share Instantly – Save your creations as high-quality images or share them directly with friends and family.</p>
+                <p><br>Enjoy a Simple & User-Friendly Experience – Our intuitive design makes it easy for anyone to craft stunning greeting cards in minutes.</p>
+                <p><br><strong>Unleash your creativity and spread joy with CardMagic!</strong></p>
             </article>
         </div>
 
         <aside class="aside">
-            <h3>
-                Stay Updated
-            </h3>
+            <h3>Stay Updated</h3>
             <p>Subscribe to our newsletter for the latest designs and offers!</p>
-                <form>
-                    <input type="email" placeholder="Enter your email">
-                    <button type="submit">Subscribe</button>
-                </form>  
-                <aside>
-                    <h3>What Our Users Say!</h3>
-                    <p>"CardMagic helped me create the best birthday card ever!"<br>– Mariam</p>
-                    <p>"I love the customization options!"<br>– Ahmed</p>
-                </aside>
-                
+            
+            <form id="subscribeForm">
+                <input type="email" name="email" required placeholder="Enter your email">
+                <button type="submit">Subscribe</button>
+            </form>
+
+            <aside>
+                <h3>What Our Users Say!</h3>
+                <p>"CardMagic helped me create the best birthday card ever!"<br>– Mariam</p>
+                <p>"I love the customization options!"<br>– Ahmed</p>
+            </aside>
         </aside>
     </main>
 
     <footer class="footer">
-      <p><strong>&copy; 2025 CardMagic . All Rights Reserved</strong>.</p>
+      <p><strong>&copy; 2025 CardMagic. All Rights Reserved.</strong></p>
     </footer>
+
+    <!-- JavaScript Message Box -->
+    <div id="messageBox" style="display: none;" class="message-box">
+        <p id="messageText"></p>
+    </div>
+
 </body>
 </html>
