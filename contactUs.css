@@ -201,6 +201,10 @@ input:focus, textarea:focus {
   }
 }
 
+#msg{
+  color:rgb(156, 13, 13)
+}
+
 /* Large Screens (992px) */
 @media (max-width: 992px) {
   div {
@@ -212,6 +216,6 @@ input:focus, textarea:focus {
   }
 
   #contact {
-    max-width: 70%;
-  }
+    max-width: 70%;
+  }
 }
