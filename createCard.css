@@ -113,7 +113,7 @@ label{
   width: 98%;
 }
   
-/*Text color table*/
+/Text color table/
 #textColor{
   display: none;
 }
@@ -175,4 +175,17 @@ label{
       border-radius: 25px;
   
   }
+}
+.heading {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.subheading {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.bodyText {
+  font-size: 18px;
 }
