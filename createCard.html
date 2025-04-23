@@ -10,18 +10,17 @@ ID: 2410916
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="createCard.css">
-    <title>Cared magic</title>
+    <title>Card Magic</title>
 </head>
 <body>
-    <!--contenar start-->
-   <div class="container">
-    
-    <!--header-->
+  <div class="container">
+
+    <!-- Header -->
     <div class="header">
-        <a href="index.html">Card Magic</a>
+      <a href="index.html">Card Magic</a>
     </div>
 
-    <!--header links-->
+    <!-- Navigation Links -->
     <div class="headLinks">
       <a href="index.html">Home</a>
       <a href="createCard.html">Create Card</a>
@@ -30,64 +29,74 @@ ID: 2410916
       <a href="contactUs.html">Contact Us</a>
     </div>
 
-    <!--sidbar-->
+    <!-- Sidebar -->
     <div class="sidebar">
-        <!--Add a text-->
-        <div>
-            <form>
-                <label for="text">Add a Text</label>
-                <input type="text" name="text" id="text" placeholder="enter your text here"><br>
-                <button class="buttons">Enter</button>
-                <button class="buttons" type="reset">Reset</button>
-            </form>
-        </div>
-          <!--text size-->
-        <div>
-            <label>Text Size</label><br>
-            <button class="buttons">Heading</button>
-            <button class="buttons">Subheading</button>
-            <button class="buttons">body Text</button>
-        </div><br>
-        <!--text color-->
-        <div>
-            <label>Chose a Color</label><br>
-            <button class="buttons">Text color</button>
-            <input type="color" id="textColor">
-        </div>
-        <!--text font-->
-        <div>
-          <label>Choose Text Font</label><br>
-          <select class="Selectors">
-               <option value="Arial">Arial</option>
-               <option value="Verdana">Verdana</option>
-               <option value="Georgia">Georgia</option>
-               <option value="Courier New">Courier New</option>
-               <option value="Time New Roman">Time New Roman</option>
-          </select>
-        </div>
-        <!--add a img and a frame-->
-        <div>
-            <label for="addImg">Add a Image</label>
-            <input type="file" id="addImg" accept="img/*">
-            <label>Add a Frame</label>
-            <select class="Selectors">
-                <option value="non">no frame</option>
-                <option value="solid">solid frame</option>
-                <option value="Dotted">Dotted frame</option>
-                <option value="Dashed">Dashed frame</option>
-            </select>
-        </div>
+      <!-- Add a text -->
+      <div>
+        <form>
+          <label for="text">Add a Text</label>
+          <input type="text" name="text" id="text" placeholder="Enter your text here"><br>
+          <button class="buttons" id="enterBtn">Enter</button>
+          <button class="buttons" type="reset">Reset</button>
+        </form>
+      </div>
+
+      <!-- Save and Review -->
+      <div style="margin-top: 20px;">
+        <button id="saveBtn" class="buttons">Save & Review</button>
+      </div>
+
+      <!-- Text Size -->
+      <div>
+        <label>Text Size</label><br>
+        <button class="buttons" id="headingBtn">Heading</button>
+        <button class="buttons" id="subheadingBtn">Subheading</button>
+        <button class="buttons" id="bodyTextBtn">Body Text</button>
+      </div><br>
+
+      <!-- Text Color -->
+      <div>
+        <label>Choose a Color</label><br>
+        <button class="buttons" id="colorBtn">Text color</button>
+        <input type="color" id="textColor">
+      </div>
+
+      <!-- Text Font -->
+      <div>
+        <label>Choose Text Font</label><br>
+        <select id="fontSelect" class="Selectors">
+          <option value="Arial">Arial</option>
+          <option value="Verdana">Verdana</option>
+          <option value="Georgia">Georgia</option>
+          <option value="Courier New">Courier New</option>
+          <option value="Times New Roman">Times New Roman</option>
+        </select>
+      </div>
+
+      <!-- Add an image and a frame -->
+      <div>
+        <label for="addImg">Add an Image</label>
+        <input type="file" id="addImg" accept="image/*">
+        <label>Add a Frame</label>
+        <select id="frameSelect" class="Selectors">
+          <option value="none">No frame</option>
+          <option value="solid">Solid frame</option>
+          <option value="dotted">Dotted frame</option>
+          <option value="dashed">Dashed frame</option>
+        </select>
+      </div>
     </div>
 
-    <!--live scren-->
-    <div class="liveCaredCreation" id="previewArea">   
-    </div>
+    <!-- Live Card Preview -->
+    <div class="liveCaredCreation" id="previewArea"></div>
 
-    <!--foteer-->
+    <!-- Footer -->
     <div class="foteer">
-        <p>&COPY;2025 CardMagic . All Rights Reserved.</p>
+      <p>&COPY;2025 CardMagic. All Rights Reserved.</p>
     </div>
-    <!--contenar ends-->
+    
   </div>
+
+<script src="createCard.js"></script>
 </body>
-</html>
+</html
