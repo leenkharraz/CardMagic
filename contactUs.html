@@ -11,6 +11,7 @@ ID: 2413523
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CardMagic - Create Your Greeting Card</title>
     <link rel="stylesheet" href="contactUs.css">
+    <script src="contactUs.js" defer></script>
 </head>
 <body>
 
@@ -33,8 +34,7 @@ ID: 2413523
       <h2>
       User information</h2>
       </div>
-      <form method="POST" action="mailto:your-email@example.com">
-
+      <form method="GET" action="thanku.html" id="cardform">
   <div>
     <label for="fname">
     First Name :
@@ -88,7 +88,7 @@ ID: 2413523
          name="no" 
          minlength="9" 
          maxlength="9" 
-         required pattern="[0-9]{9}">       
+         required >       
       </div>
       
       <div>
@@ -99,7 +99,7 @@ ID: 2413523
       id="email"
        type="email"
        name="email" 
-      required>
+       required>
       </div>
       
       <div>
@@ -140,9 +140,12 @@ ID: 2413523
 
       </div>
       </div>
-      
+
+      <div id="msg"></div>
+
       
       <div>
+        <p id="msg"></p>
         <input type="submit">
       </div>
       </form>
@@ -150,11 +153,11 @@ ID: 2413523
       <section id="contact">
       <h2> Contact Us </h2>
               Email: <a href="mailto:WHARTHY0001.stu@uj.edu.sa">WHARTHY0001.stu@uj.edu.sa</a>
-              Phone: <a href="tel:+966560662819">+966560662819</a>
+              Phone: <a href="tel:‪+966560662819‬">‪+966560662819‬</a>
               <br>Email: <a href="mailto:LKHARRAZ.stu@uj.edu.sa ">LKHARRAZ.stu@uj.edu.sa</a>
-              Phone: <a href="tel:+966502605608">+966502605608</a>
+              Phone: <a href="tel:‪+966502605608‬">‪+966502605608‬</a>
               <br> Email: <a href="mailto:SALFOWZAN.stu@uj.edu.sa ">WSALFOWZAN.stu@uj.edu.sa </a>
-              Phone: <a href="tel:+966560688955">+966560688955</a>
+              Phone: <a href="tel:‪+966560688955‬">‪+966560688955‬</a>
       </section>
 
       <footer class="footer">
